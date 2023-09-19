@@ -6,13 +6,99 @@
 }
 .top-navbar {
     width: 100%;
-    height: 6vh;
+    height: 8vh;
     background: #1f1d13;
     display: flex;
     justify-content: space-between;
     text-align: center;
     align-items: center;
 }
-.top-navbar i {
+.top-icons {
+    margin-left: 45px;
+}
+.top-icons i {
+    color: white;
+    margin-left: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.top-icons i:hover {
+    color: white;
+    background-color: #fa9806;
+    font-size: 25px;
+}
+.other-link {
+    margin-left: 33px;
+}
+.other-link i {
+    color: white;
+    margin-left: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+#btn-login {
+    height: 5ch;
+    border-radius: 5px;
+    background-color: #fa9806;
+    cursor: pointer;
+    transition: 0.5s ease;
+    border: 2px solid #fa9806;
+    width: 100px;
+    font-weight: bold;
+}
+#btn-login a {
+    text-decoration: none !important ;
     color: white;
 }
+#btn-signup {
+    height: 5ch;
+    border-radius: 5px;
+    background-color: #fa9806;
+    cursor: pointer;
+    transition: 0.5s ease;
+    border: 2px solid #fa9806;
+    width: 100px;
+    font-weight: bold;
+}
+#btn-signup a {
+    text-decoration: none !important ;
+    color: white;
+}
+#btn-signup:hover {
+    background-color: black;
+    color: white;
+    
+}
+#btn-login:hover {
+    background-color: black;
+    color: white; 
+}
+@media screen and (max-width:500px) {
+    .top-icons {
+        margin-left: 5px;
+    }
+    .top-icons i {
+        font-size: 15px;
+    }
+    .other-link {
+        margin-right: 10px;
+    }
+    .other-link i {
+        font-size: 15px;
+    }
+    #btn-login {
+        width: 40px;
+        height: 5vh;
+        font-size: 10px;
+    } 
+    #btn-signup {
+        width: 40px;
+        height: 5vh;
+        font-size: 10px;
+    } 
+}
+#navbar img{
+    width: 40px;
+}
+
+
