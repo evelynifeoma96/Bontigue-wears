@@ -97,8 +97,63 @@
         font-size: 10px;
     } 
 }
-#navbar img{
-    width: 40px;
+.navbar {
+    background-color: #fa9806;
+    font-weight: bold;
+    width: 100%;
+    color: white;
 }
+.navbar img{
+    width: 80px;
+    
+}
+.nav-brand {
+    color: #fa9806;
+    font-weight: bold;
+    font-size: 20px;
+    
+}
+.navbar-toggler-icon {
+    background-color: #fa9806;
+}
+.nav-link {
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 700;
+    cursor: pointer;
+}
+.nav-link:hover {
+    background-color: white;
+    color: black;
+}
+.search {
+    border-radius: 20px;
+    outline: none;
+    border: 2px solid #fa9806;
+    color: black;
+    width: 80%;
+    height: 50px;
+    margin-right: -35px;
+
+}
+.btn {
+    border-radius: 20px;
+    border: 0px solid #fa9806;
+    background: black;
+    height: 50px;
+    cursor: pointer;
+    width: 40%;
+    color: white;
+}
+.btn:hover {
+    background-color: #fa9806;
+    color: white;
+    outline: white;
+}
+
+
 
 
