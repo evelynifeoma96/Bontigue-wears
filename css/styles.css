@@ -4,6 +4,10 @@
     box-sizing: border-box;
     overflow: none;
 }
+#top-navbar {
+    width: 100%;
+    height: 100vh;
+}
 .top-navbar {
     width: 100%;
     height: 8vh;
@@ -86,6 +90,9 @@
     .other-link i {
         font-size: 15px;
     }
+    .navbar .navbar-brand {
+        font-size: 20px;
+    }
     #btn-login {
         width: 40px;
         height: 5vh;
@@ -97,33 +104,75 @@
         font-size: 10px;
     } 
 }
+@media screen and (max-width:300px) {
+    .top-icons {
+        margin-left: 3px;
+    }
+    .top-icons i {
+        font-size: 10px;
+    }
+    .navbar .navbar-brand {
+        font-size: 10px;
+    }
+    .other-link {
+        margin-right: 8px;
+    }
+    .other-link i {
+        font-size: 10px;
+    }
+    #btn-login {
+        width: 30px;
+        height: 3vh;
+        font-size: 5px;
+    } 
+    #btn-signup {
+        width: 20px;
+        height: 3vh;
+        font-size: 5px;
+    } 
+}
+
+
+/*navbar start */
 .navbar {
     background-color: #fa9806;
     font-weight: bold;
     width: 100%;
     color: white;
-}
-.navbar img{
-    width: 80px;
     
 }
-.nav-brand {
+
+.navbar img{
+    width: 60px;
+    
+    
+}
+.navbar-brand {
     color: #fa9806;
     font-weight: bold;
     font-size: 20px;
+    font-family: 'Overpass', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    
     
 }
 .navbar-toggler-icon {
     background-color: #fa9806;
 }
 .nav-link {
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
     text-align: center;
     color: white;
     text-transform: uppercase;
     font-weight: 700;
     cursor: pointer;
+
+    
+}
+.nav-link:active {
+    background: white;
+    color: white;
 }
 .nav-link:hover {
     background-color: white;
@@ -135,7 +184,7 @@
     border: 2px solid #fa9806;
     color: black;
     width: 80%;
-    height: 50px;
+    height: 40px;
     margin-right: -35px;
 
 }
@@ -143,7 +192,7 @@
     border-radius: 20px;
     border: 0px solid #fa9806;
     background: black;
-    height: 50px;
+    height: 40px;
     cursor: pointer;
     width: 40%;
     color: white;
@@ -153,6 +202,113 @@
     color: white;
     outline: white;
 }
+.dropdown-menu {
+    background-color: #fa9806;
+    opacity: 0.8;
+}
+.dropdown-menu a {
+    font-size: 10px;
+}
+
+/*home page start */
+.home {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto Slab', serif;
+    flex-wrap: wrap;
+    background-color: #1f1d13;
+    z-index: 0;
+
+}
+.home .img {
+    margin-right: 150px;
+}
+
+.home .img img{
+    width: 100%;
+}
+.home .content {
+    margin-top: 30px;
+    flex: 1 1 400px;
+
+}
+.content h3 {
+    margin-left: 70px;
+    font-size: 50px;
+    color: white;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px white;
+}
+.content span {
+    font-size: 40px;
+}
+.content p {
+    color: white;
+    margin-left: 70px;
+    font-family: 'Poppins', sans-serif;
+}
+.content .btn1 {
+    width: 200px;
+    margin-left: 70px;
+    height: 40px;
+    background-color: #fa9806;
+    outline: none;
+    transition: 0.5s;
+    border: none;
+    font-weight: bold;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.content .btn1:hover {
+    background-color: white;
+    color: #fa9806;
+    transform: .5s ease-in;
+}
+@media screen and (max-width: 800px) {
+    .content h3 {
+        margin-left: 50px;
+        font-size: 40px;
+    }
+    .content p {
+        margin-left: 50px;
+    }
+    .content .btn1 {
+        margin-left: 50px;
+    }
+}
+@media screen and (max-width: 500px) {
+    .content h3 {
+        margin-left: 30px;
+        font-size: 20px;
+    }
+    .content p {
+        margin-left: 30px;
+    }
+    .content .btn1 {
+        margin-left: 30px;
+    }
+}
+@media screen and (max-width: 200px) {
+    .content h3 {
+        margin-left: 10px;
+        font-size: 5px;
+    }
+    .content p {
+        margin-left: 10px;
+    }
+    .content .btn1 {
+        margin-left: 10px;
+    }
+}
+/* card top */
+.card .img-fluid {
+    height: 50vh;
+}
+
+
 
 
 
