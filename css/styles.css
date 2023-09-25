@@ -4,6 +4,11 @@
     box-sizing: border-box;
     overflow: none;
 }
+.home-page {
+    width: 100%;
+    height: 100vh;
+    background-color: #1f1d13;
+}
 #top-navbar {
     width: 100%;
     height: 100vh;
@@ -224,13 +229,14 @@
 }
 .home .img {
     margin-right: 150px;
+    margin-top: 15%;
 }
 
 .home .img img{
     width: 100%;
 }
 .home .content {
-    margin-top: 30px;
+    margin-top: 15%;
     flex: 1 1 400px;
 
 }
@@ -264,7 +270,7 @@
 }
 .content .btn1:hover {
     background-color: white;
-    color: #fa9806;
+    color: #e68d07;
     transform: .5s ease-in;
 }
 @media screen and (max-width: 800px) {
@@ -304,10 +310,46 @@
     }
 }
 /* card top */
-.card .img-fluid {
-    height: 50vh;
+.sub-h {
+    font-size: 700;
+    color: orange;
+    font-weight: bold;
+    font-family: 'Dela Gothic One', cursive;
 }
-
+.card .img-fluid {
+    height: 40vh;
+}
+.card p {
+    margin-left: 10px;
+}
+.card h5 {
+    margin-left: 10px;
+    color: orange;
+    font-weight: bold;
+}
+.card img {
+    transition: .5s ease-out;
+    cursor: pointer;
+}
+.card img:hover {
+    transform: scale(.5);
+}
+strike {
+    color: red;
+}
+.btn3 {
+    outline: none;
+    color: white;
+    width: 30%;
+    height: 40px;
+    background-color: orange;
+    border: 2px solid orange;
+}
+.btn3:hover {
+    color: orange;
+    background-color: #1f1d13;
+    border: 2px solid #1f1d13;
+}
 
 
 
