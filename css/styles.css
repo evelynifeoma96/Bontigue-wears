@@ -350,6 +350,13 @@ strike {
     background-color: #1f1d13;
     border: 2px solid #1f1d13;
 }
+.banner .content {
+    width: 100%;
+    height: 100vh;
+    background-image: url('/images/photo.avif');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 
 
