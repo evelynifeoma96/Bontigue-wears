@@ -310,14 +310,14 @@
     }
 }
 /* card top */
-.cards {
-    border: 2px solid whitesmoke;
+#top-cards {
     background-color: whitesmoke;
+    border-radius: 10px;
+    border: 2px solid whitesmoke;
+
+    
 }
-.card {
-    border: 2px solid wheat;
-    background-color: wheat;
-}
+
 .sub-h {
     font-size: 700;
     color: orange;
@@ -352,6 +352,7 @@ strike {
     height: 40px;
     background-color: orange;
     border: 2px solid orange;
+    border-radius: 10px;
 }
 .btn3:hover {
     color: orange;
@@ -364,6 +365,81 @@ strike {
     background-image: url('/images/photo4.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+    text-align: center;
+}
+.content h1 {
+    padding-top: 500px;
+    color: orange;
+    font-weight: bold;
+    font-size: 60px;
+
+}
+.content p {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+.content .btn4 {
+    width: 150px;
+    outline: none;
+    background-color: transparent;
+    height: 40px;
+    border:3px solid white;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+}
+.content .btn4:hover {
+    color: orange;
+    background-color: #1f1d13;
+    border: 2px solid #1f1d13;
+}
+.product-cards .img-fluid {
+    height: 25vh;
+    width: 98%;
+}
+.product-cards .card {
+    border: 2px solid whitesmoke;
+    margin-top: 8px;
+    
+}
+.product-cards .card-body {
+    background-color: whitesmoke;
+    color: black;
+}
+.product-cards h1 {
+    font-weight: bold;
+    font-size: 38px;
+    color: #e68d07;
+    font-family: 'Croissant One', cursive;;
+}
+.product-cards p {
+    font-size: 15px;
+}
+.product-cards h3 {
+    color: black;
+    font-weight: bold;
+}
+.product-cards .checked {
+    color: orange;
+}
+.product-cards span {
+    float: right;
+}
+.product-cards h5 {
+    color: black;
+    font-weight: normal;
+}
+.product-cards strike {
+    font-weight: normal;
+}
+.product-cards .row .btn5 {
+    border: 2px solid black;
+    width: 40px;
+    height: 40px;
+}
+button a {
+    text-decoration: none;
 }
 
 
