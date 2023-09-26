@@ -310,6 +310,14 @@
     }
 }
 /* card top */
+.cards {
+    border: 2px solid whitesmoke;
+    background-color: whitesmoke;
+}
+.card {
+    border: 2px solid wheat;
+    background-color: wheat;
+}
 .sub-h {
     font-size: 700;
     color: orange;
@@ -353,7 +361,7 @@ strike {
 .banner .content {
     width: 100%;
     height: 100vh;
-    background-image: url('/images/photo.avif');
+    background-image: url('/images/photo4.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 }
