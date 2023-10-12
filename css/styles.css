@@ -368,7 +368,7 @@ strike {
     text-align: center;
 }
 .content h1 {
-    padding-top: 500px;
+    padding-top: 300px;
     color: orange;
     font-weight: bold;
     font-size: 60px;
@@ -409,8 +409,8 @@ strike {
 }
 .product-cards h1 {
     font-weight: bold;
-    font-size: 38px;
-    color: #e68d07;
+    font-size: 33px;
+    color: orange;
     font-family: 'Croissant One', cursive;
 }
 .product-cards p {
@@ -517,7 +517,7 @@ button a {
     transition: 0.5s ease;
     line-height: 1;
     height: 36px;
-    width: 50px;
+    width: 40px;
     /* margin-right: 4px; */
     background-color: black;
 }
@@ -556,6 +556,7 @@ html {
     color: white;
     background-color: greenyellow;
     border-radius: 50px;
+    text-decoration: none;
 }
 
 
