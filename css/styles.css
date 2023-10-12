@@ -576,7 +576,7 @@ html {
 }
 #side1 h3 {
     color: white;
-    box-shadow: 1px 1px 1px black;
+    /* box-shadow: 1px 1px 1px black; */
     font-weight: bold;
     align-items: center;
     text-align: center;
