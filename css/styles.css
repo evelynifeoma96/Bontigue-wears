@@ -7,7 +7,7 @@
 .home-page {
     width: 100%;
     height: 100vh;
-    background-color: #1f1d13;
+    /* background-color: #1f1d13; */
 }
 #top-navbar {
     width: 100%;
@@ -21,6 +21,7 @@
     justify-content: space-between;
     text-align: center;
     align-items: center;
+
 }
 .top-icons {
     margin-left: 45px;
@@ -144,8 +145,9 @@
     font-weight: bold;
     width: 100%;
     color: white;
-    
+   
 }
+
 
 .navbar img{
     width: 60px;
@@ -182,6 +184,7 @@
 .nav-link:hover {
     background-color: white;
     color: black;
+    border-radius: 10px;
 }
 .search {
     border-radius: 20px;
@@ -214,6 +217,7 @@
 .dropdown-menu a {
     font-size: 10px;
 }
+
 
 /*home page start */
 .home {
@@ -394,6 +398,44 @@ strike {
     background-color: #1f1d13;
     border: 2px solid #1f1d13;
 }
+
+/*banner2*/
+.banner2 .content {
+    width: 100%;
+    height: 40vh;
+    background-image: url('/images/photo1.avif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+.content h1 {
+    padding-top: 80px;
+    color: orange;
+    font-weight: bold;
+    font-size: 60px;
+
+}
+.content p {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+.content .btn4 {
+    width: 150px;
+    outline: none;
+    background-color: transparent;
+    height: 40px;
+    border:3px solid white;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+}
+.content .btn4:hover {
+    color: orange;
+    background-color: #1f1d13;
+    border: 2px solid #1f1d13;
+}
+/*products*/
 .product-cards .img-fluid {
     height: 25vh;
     width: 98%;
@@ -409,7 +451,7 @@ strike {
 }
 .product-cards h1 {
     font-weight: bold;
-    font-size: 33px;
+    font-size: 30px;
     color: orange;
     font-family: 'Croissant One', cursive;
 }
@@ -443,20 +485,20 @@ button a {
 }
 .imgg i{
     font-size: 50px;
-    color: greenyellow;
+    color: black;
 }
 
 
 /* footers */
 #footer {
-    padding: 0 0 50px 0;
+    padding: 0 0 40px 0;
     background-color: black;
     font-size: 14px;
     color: #d0d0d0;
 
 }
 #footer .footer-top {
-    padding: 60px 0px 30px;
+    padding: 50px 0px 30px;
     background-color: black;
     color: white;
 }
@@ -560,11 +602,11 @@ html {
 }
 
 /* login*/
-.login {
-    width: 50%;
+/* .login1 {
+    width: 100%;
     margin: 20px;
-    /* background-color: white; */
-}
+    background-color: white;
+} */
 #side1 {
     background: #143d59;
     /* background-color: whitesmoke; */
@@ -573,6 +615,9 @@ html {
     box-sizing: rgba(100,100,111,0.2) 0px 7px 29px 0px;
     margin-top: 20px;
     margin-bottom: 20px;
+}
+.row {
+    width: 100%;
 }
 #side1 h3 {
     color: white;
@@ -668,6 +713,17 @@ html {
 }
 
 /* login*/
+
+@media screen and (max-width: 992px) {
+    #side2 input{
+        width: 300px;
+    }
+}
+@media screen and (max-width: 330px) {
+    #side2 input{
+        width: 200px;
+    }
+}
 
 
 
