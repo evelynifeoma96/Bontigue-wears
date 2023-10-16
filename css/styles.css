@@ -485,7 +485,30 @@ button a {
 }
 .imgg i{
     font-size: 50px;
-    color: black;
+    color: orange;
+}
+.btn4 {
+    width: 150px;
+    outline: none;
+    background-color: orange;
+    height: 40px;
+    border:3px solid white;
+    border-radius: 10px;
+    font-weight: bold;
+}
+.btn4 a {
+    outline: none;
+    color: white;
+    width: 30%;
+    height: 40px;
+    background-color: orange;
+    /* border: 2px solid orange; */
+    border-radius: 10px;
+}
+.btn4:hover {
+    color: orange;
+    background-color: #1f1d13;
+    border: 2px solid #1f1d13;
 }
 
 
@@ -724,6 +747,40 @@ html {
         width: 200px;
     }
 }
+/*contact*/
+.contact-me {
+    background-color: #1f1d13;
+    color: white;
+}
+/* .news {
+    background-color: black;
+    color: white;
+} */
+.btn3 {
+    height: 45px;
+    width: 100px;
+    background-color: black;
+    border: 2px solid black;
+    margin-left: -10px;
+    font-weight: 600;
+    outline: none;
+}
+.news input {
+    height: 44.7px;
+    width: 55%;
+    border: 2px solid black;
+    outline: none;
+    background: transparent;
+    margin-top: 20px;
+    /* color: white; */
+}
+.news::placeholder {
+    color: white;
+}
+.news p {
+    margin: 0;
+}
+/*contact*/
 
 
 
