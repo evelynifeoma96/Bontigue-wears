@@ -781,6 +781,16 @@ html {
     margin: 0;
 }
 /*contact*/
+/*about*/
+.about {
+    background-color: beige;
+}
+.about h1 {
+    font-weight: bold;
+    text-align: center;
+    color: orange;
+}
+/*about*/
 
 
 
